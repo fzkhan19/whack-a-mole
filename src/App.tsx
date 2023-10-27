@@ -60,11 +60,14 @@ function App() {
 
       return newHoles;
     });
-  }
+  };
 
   return (
     <>
-      <p className="score">{`Score ${score}`}</p>
+      <p
+        className="score"
+        style={{ fontSize: "24px", color: "black" }}
+      >{`Score ${score}`}</p>
       <button className="start-button" onClick={startGame}>
         {start ? "Stop Game" : "Start Game"}
       </button>
