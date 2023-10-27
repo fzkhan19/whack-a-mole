@@ -66,7 +66,7 @@ function App() {
     <>
       <p
         className="score"
-        style={{ fontSize: "24px", color: "black" }}
+        style={{ fontSize: "24px", color: "black", fontWeight: "bold" }}
       >{`Score ${score}`}</p>
       <button className="start-button" onClick={startGame}>
         {start ? "Stop Game" : "Start Game"}
